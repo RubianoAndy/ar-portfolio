@@ -9,10 +9,10 @@ const Navbar = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
 
     const navbarOptions = [
-        { id: 1, title: 'Home', url: '/' },
-        { id: 2, title: 'Curriculum', url: '/curriculum' },
-        { id: 3, title: 'Projects', url: '/projects' },
-        { id: 4, title: 'Contact', url: '/contact' },
+        { title: 'Home', url: '/' },
+        { title: 'Curriculum', url: '/curriculum' },
+        { title: 'Projects', url: '/projects' },
+        { title: 'Contact', url: '/contact' },
     ];
 
     const toggleMenu = () => {
@@ -35,8 +35,8 @@ const Navbar = () => {
 
                 <div className={`hidden md:flex items-center ml-auto ${isMenuOpen ? 'flex' : 'hidden'}`}>
                     <ul className="flex flex-col md:flex-row md:space-x-2 font-medium p-4 md:p-0">
-                        {navbarOptions.map((option) => (
-                            <li key={option.id}>
+                        {navbarOptions.map((option, index) => (
+                            <li key={index}>
                                 <Link href={option.url} className={`block py-2 px-3 text-black text-xl font-semibold md:hover:text-blue-500 ${route === option.url ? 'text-green-700' : ''}`}>
                                     {option.title}
                                 </Link>
@@ -49,8 +49,8 @@ const Navbar = () => {
             {isMenuOpen && (
                 <div className="absolute top-[56px] left-0 w-full bg-white md:hidden rounded-3xl shadow-lg">
                     <ul className="flex flex-col font-medium p-4 space-y-2">
-                        {navbarOptions.map((option) => (
-                            <li key={option.id} onClick={toggleMenu} className="w-full">
+                        {navbarOptions.map((option, index) => (
+                            <li key={index} onClick={toggleMenu} className="w-full">
                                 <Link href={option.url} className={`flex w-full justify-center py-2 px-3 text-black hover:text-blue-500 ${route === option.url ? 'text-green-700' : ''}`}>
                                     {option.title}
                                 </Link>
