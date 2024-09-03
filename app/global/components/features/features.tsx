@@ -27,7 +27,7 @@ const Features = () => {
     return (
         <div className="flex flex-col w-full bg-white py-4 md:py-8 space-y-8">
             <div className="flex container mx-auto text-center justify-center">
-                <div className="w-full lg:w-6/12 px-4">
+                <div className="w-full md:w-1/2 px-4">
                     <h2 className="text-4xl lg:text-5xl font-semibold text-black">Build something</h2>
                     {/* <p className="text-lg mt-4 mb-4 text-black">
                         Put the potentially record low maximum sea ice extent this year
