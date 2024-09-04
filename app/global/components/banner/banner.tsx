@@ -13,15 +13,17 @@ const Banner = () => {
             <div className='flex'>
                 <div className="flex items-center text-center lg:text-left px-8 md:px-12 md:w-1/2">
                     <div>
-                        <h2 className="font-semibold text-black text-4xl lg:text-5xl">Build Your New <span className="text-indigo-600">Idea</span></h2>
+                        <h2 className="font-semibold text-black text-4xl lg:text-5xl">¡Hola, soy <span className="text-green-700">Andy Rubiano!</span></h2>
 
                         <p className="mt-2 text-lg text-black text-justify">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis commodi cum cupiditate ducimus, fugit harum id necessitatibus odio quam quasi, quibusdam rem tempora voluptates. Cumque debitis dignissimos id quam vel!
+                            Soy Ingeniero electrónico con experiencia desarrollo de software y conocimientos en Git, Power BI, MySQL, SQL y PostgreSQL 
+                            y en lenguajes de programación como Python, HTML, TypeScript, JavaScript, C++ y PHP, aplicados en frameworks como Angular (Bootstrap 
+                            y Tailwind CSS), Laravel, Next.js (React) y Django (rest framework y JWT).
                         </p>
 
                         <div className="flex justify-center lg:justify-start mt-6">
-                            <Link href={'/curriculum'} className="px-4 py-3 bg-gray-900 text-gray-200 text-xs font-semibold rounded hover:bg-gray-800">Get Started</Link>
-                            <Link href={'/contact'} className="mx-4 px-4 py-3 bg-gray-300 text-gray-900 text-xs font-semibold rounded hover:bg-gray-400">Learn More</Link>
+                            <Link href={'/portafolio'} className="px-4 py-3 bg-green-700 text-gray-200 text-xs font-semibold rounded hover:bg-green-900">Portafolio</Link>
+                            <Link href={'/curriculum'} className="mx-4 px-4 py-3 bg-gray-300 text-gray-900 text-xs font-semibold rounded hover:bg-gray-400">Curriculum</Link>
                         </div>
                     </div>
                 </div>

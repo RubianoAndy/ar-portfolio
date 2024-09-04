@@ -9,10 +9,10 @@ const Navbar = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
 
     const navbarOptions = [
-        { title: 'Home', url: '/' },
+        { title: 'Inicio', url: '/' },
         { title: 'Curriculum', url: '/curriculum' },
-        { title: 'Projects', url: '/projects' },
-        { title: 'Contact', url: '/contact' },
+        { title: 'Portafolio', url: '/portafolio' },
+        { title: 'Contacto', url: '/contacto' },
     ];
 
     const toggleMenu = () => {
