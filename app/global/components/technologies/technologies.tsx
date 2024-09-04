@@ -41,6 +41,10 @@ const Technologies = () => {
             name: 'NextJS',
         },
         {
+            logo: '/assets/technologies/NodeJS.png',
+            name: 'NodeJS',
+        },
+        {
             logo: '/assets/technologies/PostgreSQL.png',
             name: 'PostgreSQL',
         },
@@ -70,7 +74,7 @@ const Technologies = () => {
 
             <div className="flex flex-wrap justify-start">
                 {technologiesOptions.map((tech, index) => (
-                    <div key={index} className="flex flex-col w-1/3 sm:w-1/4 md:w-1/6 p-2 justify-center items-center">
+                    <div key={index} className="flex flex-col w-1/2 sm:w-1/3 md:w-1/4 lg:w-1/5 p-2 justify-center items-center">
                         <div className="flex flex-col w-full mx-auto bg-white p-4 justify-center items-center hover:bg-gray-100 border border-gray-200 rounded-lg shadow-lg">
                             <Image width={100} height={100} src={`${tech.logo}`} alt={`${tech.name}`} className="object-center object-cover w-16 h-auto"/>
                             <div className="text-center">
