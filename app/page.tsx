@@ -7,7 +7,7 @@ export default function Home() {
     <main className="flex flex-col w-full space-y-5">
       <Banner />
       <Technologies />
-      <Features />
+      {/* <Features /> */}
     </main>
   );
 }

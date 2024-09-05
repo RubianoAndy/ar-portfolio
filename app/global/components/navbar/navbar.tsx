@@ -10,8 +10,8 @@ const Navbar = () => {
 
     const navbarOptions = [
         { title: 'Inicio', url: '/' },
-        { title: 'Curriculum', url: '/curriculum' },
         { title: 'Portafolio', url: '/portafolio' },
+        { title: 'Curriculum', url: '/curriculum' },
         { title: 'Contacto', url: '/contacto' },
     ];
 

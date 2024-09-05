@@ -15,7 +15,7 @@ const Footer: React.FC<FooterPromps> = ({pageName, developer, email}) => {
     const currentYear = new Date().getFullYear();
 
     return(
-        <footer className='bg-white'>
+        <footer className='bg-black'>
             <div className='mx-auto w-full p-6 md:py-8'>
                 <div className='md:flex md:justify-between'>
                     <div className='flex flex-col items-center mb-6 md:mb-0'>
@@ -29,7 +29,7 @@ const Footer: React.FC<FooterPromps> = ({pageName, developer, email}) => {
                         <div>
                             <h2 className="mb-4 text-sm font-semibold text-green-600 uppercase">Marco legal</h2>
 
-                            <ul className="text-black font-medium">
+                            <ul className="text-white font-medium">
                                 <li className="mb-4">
                                     <Link href="/terminos-condiciones" className="hover:underline">Términos y condiciones</Link>
                                 </li>
@@ -47,7 +47,7 @@ const Footer: React.FC<FooterPromps> = ({pageName, developer, email}) => {
                         <div>
                             <h2 className="mb-4 text-sm font-semibold text-green-600 uppercase">Contacto</h2>
 
-                            <ul className="text-black font-medium">
+                            <ul className="text-white font-medium">
                                 <li className="mb-4">
                                     <i className="fa-solid fa-envelope mr-2"></i> {`${email}`}
                                 </li>

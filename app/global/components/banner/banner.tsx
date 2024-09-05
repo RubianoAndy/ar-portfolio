@@ -21,9 +21,10 @@ const Banner = () => {
                             y Tailwind CSS), Laravel, Next.js (React) y Django (rest framework y JWT).
                         </p>
 
-                        <div className="flex justify-center lg:justify-start mt-6">
+                        <div className="flex justify-center lg:justify-start mt-6 space-x-2">
                             <Link href={'/portafolio'} className="px-4 py-3 bg-green-700 text-gray-200 text-xs font-semibold rounded hover:bg-green-900">Portafolio</Link>
-                            <Link href={'/curriculum'} className="mx-4 px-4 py-3 bg-gray-300 text-gray-900 text-xs font-semibold rounded hover:bg-gray-400">Curriculum</Link>
+                            <Link href={'/curriculum'} className="px-4 py-3 bg-gray-300 text-gray-900 text-xs font-semibold rounded hover:bg-gray-400">Curriculum</Link>
+                            <Link href={'https://www.linkedin.com/in/rubianoandy/'} target='_blank' className="px-4 py-3 bg-blue-900 text-white text-xs font-semibold rounded hover:bg-gray-400"><i className="fa-brands fa-linkedin mr-2"></i> LinkedIn</Link>
                         </div>
                     </div>
                 </div>
