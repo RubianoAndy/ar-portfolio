@@ -1,5 +1,7 @@
 'use client';
 
+import Badge from '../badge/badge';
+
 import Link from 'next/link';
 import Image from 'next/image';
 
@@ -7,18 +9,21 @@ const Banner = () => {
     return (
         <div className="flex flex-col md:flex-row bg-white md:h-[600px]">
             <div className="flex md:hidden py-8 justify-center items-center">
-                <Image width={200} height={200} src="/assets/webpage/Developer.png" alt="Developer" className="rounded-full"/>
+                <Image width={200} height={200} src="/assets/webpage/Andy.jpg" alt="Developer" className="rounded-lg shadow-lg"/>
             </div>
 
             <div className='flex'>
                 <div className="flex items-center text-center lg:text-left px-8 md:px-12 md:w-1/2">
-                    <div>
-                        <h2 className="font-semibold text-black text-4xl lg:text-5xl">¡Hola, soy <span className="text-green-700">Andy Rubiano!</span></h2>
+                    
+                    <div className='flex-col'>
+                        <div className='hidden md:flex'>
+                            <Badge />
+                        </div>
+                        <h1 className="font-semibold text-black text-4xl lg:text-5xl">¡Hola, soy <span className="text-green-700">Andy Rubiano!</span></h1>
 
                         <p className="mt-2 text-lg text-black text-justify">
-                            Soy Ingeniero electrónico con experiencia desarrollo de software y conocimientos en Git, Power BI, MySQL, SQL y PostgreSQL 
-                            y en lenguajes de programación como Python, HTML, TypeScript, JavaScript, C++ y PHP, aplicados en frameworks como Angular (Bootstrap 
-                            y Tailwind CSS), Laravel, Next.js (React) y Django (rest framework y JWT).
+                            Desarrollador web con experiencia en tecnologías como Angular, NextJS, entre otras. Me enfoco en crear soluciones innovadoras y 
+                            atractivas. Descubre mi trabajo y dedicación a través de mi portafolio.
                         </p>
 
                         <div className="flex justify-center lg:justify-start mt-6 space-x-2">
