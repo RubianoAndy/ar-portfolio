@@ -37,10 +37,6 @@ const Footer: React.FC<FooterPromps> = ({pageName, developer, email}) => {
                                 <li className="mb-4">
                                     <a href="/politica-privacidad" className="hover:underline">Política de privacidad</a>
                                 </li>
-
-                                <li>
-                                    <a href="/faqs" className="hover:underline">Faqs</a>
-                                </li>
                             </ul>
                         </div>
 
@@ -66,7 +62,7 @@ const Footer: React.FC<FooterPromps> = ({pageName, developer, email}) => {
                 <hr className="my-2 border-green-700 sm:mx-auto"/>
 
                 <div className="sm:flex sm:items-center sm:justify-between">
-                    <span className="text-sm text-black sm:text-center">&copy; {`${currentYear}`} <Link href="/" className="hover:underline">{`${ pageName }`}</Link>. Todos los derechos reservados.</span>
+                    <span className="text-sm text-white sm:text-center">&copy; {`${currentYear}`} <Link href="/" className="hover:underline">{`${ pageName }`}</Link>. Todos los derechos reservados.</span>
         
                     <div className="flex mt-4 sm:justify-center sm:mt-0">
                         {/* URL de descarga de íconos tamaño 48px X 48px https://iconos8.es/icons/set/social-media */}
