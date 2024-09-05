@@ -22,8 +22,8 @@ const Banner = () => {
                         <h1 className="font-semibold text-black text-4xl lg:text-5xl">¡Hola, soy <span className="text-green-700">Andy Rubiano!</span></h1>
 
                         <p className="mt-2 text-lg text-black text-justify">
-                            Desarrollador web con experiencia en tecnologías como Angular, NextJS, entre otras. Me enfoco en crear soluciones innovadoras y 
-                            atractivas. Descubre mi trabajo y dedicación a través de mi portafolio.
+                            Desarrollador web con experiencia en tecnologías como Angular, Laravel, NextJS, entre otras. Me enfoco en crear soluciones innovadoras y 
+                            funcionales. Descubre mi trabajo y dedicación a través de mi portafolio.
                         </p>
 
                         <div className="flex justify-center lg:justify-start mt-6 space-x-2">
