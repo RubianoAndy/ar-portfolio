@@ -14,7 +14,23 @@ export default function Portfolio() {
                 'TypeScript',
                 'Power BI',
                 'Git',
-            ]
+            ],
+            path: 'luciana',
+        },
+        {
+            picture: '/assets/webpage/projects/Luciana/1.png',
+            name: 'Luciana',
+            description: 'Hola mundo, Hola mundo, Hola mundo, Hola mundo, Hola mundo, Hola mundo, Hola mundo, Hola mundo, Hola mundo, Hola mundo',
+            technologies: [
+                'Angular',
+                'Bootstrap',
+                'Laravel',
+                'MySQL',
+                'TypeScript',
+                'Power BI',
+                'Git',
+            ],
+            path: 'luciana',
         },
         {
             picture: '/assets/webpage/projects/Luciana/1.png',
@@ -28,7 +44,8 @@ export default function Portfolio() {
                 'TypeScript',
                 'Power BI',
                 'Git',
-            ]
+            ],
+            path: 'luciana',
         },
         {
             picture: '/assets/webpage/projects/Luciana/1.png',
@@ -42,7 +59,8 @@ export default function Portfolio() {
                 'TypeScript',
                 'Power BI',
                 'Git',
-            ]
+            ],
+            path: 'luciana',
         },
     ];
 

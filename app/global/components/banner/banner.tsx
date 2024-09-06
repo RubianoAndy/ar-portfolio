@@ -7,9 +7,9 @@ import Image from 'next/image';
 
 const Banner = () => {
     return (
-        <div className="flex flex-col md:flex-row bg-white md:h-[600px]">
+        <div className="flex flex-col md:flex-row bg-white py-4 md:h-[600px]">
             <div className="flex md:hidden py-8 justify-center items-center">
-                <Image width={200} height={200} src="/assets/webpage/Andy.jpg" alt="Developer" className="rounded-lg shadow-lg"/>
+                <Image width={200} height={200} priority={true} src="/assets/webpage/Andy.jpg" alt="Developer" className="rounded-lg shadow-lg w-auto h-auto"/>
             </div>
 
             <div className='flex'>
