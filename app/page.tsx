@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <main className="flex flex-col w-full space-y-8 md:space-y-12">
       <Banner />
-      <Technologies />
+      {/* <Technologies /> */}
       {/* <Features /> */}
     </main>
   );

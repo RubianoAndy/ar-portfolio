@@ -26,13 +26,15 @@ export default function RootLayout({
       </head>
       
       <body className={inter.className}>
-        <Navbar/>
-        
-        <div className="pt-20">
-          {children}
-        </div>
+        <div className="min-h-screen flex flex-col">
+          <Navbar/>
+          
+          <div className="flex-grow pt-20">
+            {children}
+          </div>
 
-        <Footer pageName={environment.site_name} developer={environment.developer_name} email={environment.email}/>
+          <Footer pageName={environment.site_name} developer={environment.developer_name} email={environment.email}/>
+        </div>
       </body>
     </html>
   );
