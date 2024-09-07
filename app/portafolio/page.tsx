@@ -26,9 +26,13 @@ export default function Portfolio() {
         {
             picture: '/assets/webpage/projects/Portafolio NextJS/1.png',
             name: 'Portafolio Next.JS',
-            description: 'Hola mundo, Hola mundo, Hola mundo, Hola mundo, Hola mundo, Hola mundo, Hola mundo, Hola mundo, Hola mundo, Hola mundo',
+            description: `Portafolio para desarrollador web que muestra una colección de programas y aplicaciones creadas utilizando 
+                    una variedad de frameworks y lenguajes de programación, reflejando la capacidad de adaptación a diferentes requisitos 
+                    técnicos y desafíos. Cada sección del portafolio presenta proyectos que demuestran experiencia en el desarrollo 
+                    de soluciones innovadoras y efectivas en distintos entornos tecnológicos`,
             technologies: [
                 'Git',
+                'HTML',
                 'NextJS',
                 'Tailwind CSS',
                 'TypeScript',
