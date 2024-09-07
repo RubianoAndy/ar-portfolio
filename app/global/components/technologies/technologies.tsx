@@ -29,6 +29,10 @@ const Technologies = () => {
             name: 'HTML',
         },
         {
+            logo: '/assets/technologies/JWT.png',
+            name: 'JWT',
+        },
+        {
             logo: '/assets/technologies/Laravel.png',
             name: 'Laravel',
         },
@@ -55,6 +59,10 @@ const Technologies = () => {
         {
             logo: '/assets/technologies/Python.png',
             name: 'Python',
+        },
+        {
+            logo: '/assets/technologies/SQL server.png',
+            name: 'SQL server',
         },
         {
             logo: '/assets/technologies/Tailwind CSS.png',
