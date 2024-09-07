@@ -21,8 +21,6 @@ export default function AboutMe() {
             <div className="max-w-screen-xl mx-auto">
                 <PDFViewer src={`${pdfFile}`} />
             </div>
-
-            <Technologies />
         </div>
     );
 }

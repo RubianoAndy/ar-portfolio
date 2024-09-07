@@ -5,13 +5,13 @@ import Image from 'next/image';
 
 import React from 'react';
 
-interface FooterPromps {
+interface Promps {
     pageName: string,
     developer: string,
     email: string,
 }
 
-const Footer: React.FC<FooterPromps> = ({pageName, developer, email}) => {
+const Footer: React.FC<Promps> = ({pageName, developer, email}) => {
     const currentYear = new Date().getFullYear();
 
     return(

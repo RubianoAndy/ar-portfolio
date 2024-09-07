@@ -7,13 +7,14 @@ export default function Portfolio() {
             name: 'Luciana',
             description: `Luciana es una solución integral de gestión del talento humano desarrollada que optimiza todo el 
                     ciclo de contratación, desde el reclutamiento hasta el retiro de los empleados. Ofrece un portal intuitivo 
-                    donde los candidatos pueden registrarse y postularse a diversas vacantes, mientras que las empresas clientes y 
-                    los sicólogos acceden a una interfaz detallada para monitorear la trazabilidad completa de los procesos de selección`,
+                    donde los candidatos pueden registrarse y postularse a diversas vacantes, mientras que las empresas clientes y los 
+                    sicólogos acceden a una interfaz detallada para monitorear la trazabilidad completa de los procesos de selección`,
             technologies: [
                 'Angular',
                 'Bootstrap',
                 'CSS',
                 'Git',
+                'HTML',
                 'Laravel',
                 'MySQL',
                 'TypeScript',
