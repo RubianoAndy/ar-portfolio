@@ -23,7 +23,7 @@ export default function Luciana() {
     ];
 
     return (
-        <div>
+        <div className="pb-4">
             <div className="relative flex w-full items-center justify-center py-24 lg:py-32 bg-gray-700 bg-blend-multiply">
                 <Image width={3255} height={1610} priority={true} src="/assets/webpage/banner/Code.jpg" alt="Banner" className="absolute inset-0 w-full h-full object-cover"/>
                 {/* <div className="absolute inset-0 bg-white opacity-50"></div> */}
