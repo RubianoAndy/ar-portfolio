@@ -5,8 +5,6 @@ import Image from "next/image";
 import React from "react";
 import { useState, useEffect } from "react";
 
-import { environment } from "../global/utils/environment";
-
 import { contactEmailService } from "../global/services/contactEmailService";
 
 export default function Contact() {
@@ -16,7 +14,7 @@ export default function Contact() {
     const [message, setMessage] = useState('');
     const [isFormValid, setIsFormValid] = useState(false);
 
-    const emailDeveloper: string = environment.email;
+    const emailDeveloper: string = process.env.NEXT_PUBLIC_EMAIL || 'default@example.com';
 
     useEffect(() => {
         const isValid = name.trim() !== '' && email.includes('@') && subject.trim() !== '' && message.trim() !== '';

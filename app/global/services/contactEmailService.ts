@@ -1,5 +1,3 @@
-import { environment } from "../utils/environment";
-
 export const contactEmailService = async (
     body: {
         name: string,
@@ -9,7 +7,7 @@ export const contactEmailService = async (
     }
 ) => {
     try {
-        const apiUrl = environment.apiUrl;
+        const apiUrl = process.env.NEXT_PUBLIC_API_URL;
         
         const response = await fetch(apiUrl + 'send-email', {
             method: 'POST',
