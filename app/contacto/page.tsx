@@ -2,9 +2,12 @@
 
 import Link from "next/link";
 import Image from "next/image";
+import React from "react";
 import { useState, useEffect } from "react";
 
 import { environment } from "../global/utils/environment";
+
+import { contactEmailService } from "../global/services/contactEmailService";
 
 export default function Contact() {
     const [name, setName] = useState('');
@@ -20,13 +23,34 @@ export default function Contact() {
         setIsFormValid(isValid);
     }, [name, email, subject, message]);
 
-    const handleSubmit = (event: any) => {
+    const handleSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
         event.preventDefault();
 
         if (!isFormValid)
             return;
+
+        const body = {
+            name,
+            email,
+            subject,
+            message,
+        };
+
+        try {
+            const response = await contactEmailService(body);
+    
+            if (response) {
+                setName('');
+                setEmail('');
+                setSubject('');
+                setMessage('');
+                alert("Formulario enviado con éxito");
+            }
+        } catch (error) {
+            console.error('Error al enviar el formulario: ', error);
+            alert("Error al enviar el formulario. Por favor, intenta de nuevo.");
+        }
         
-        console.log('Formulario enviado:', { name, email, subject, message });
     }
 
     return(
