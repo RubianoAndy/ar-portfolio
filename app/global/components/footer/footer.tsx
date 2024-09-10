@@ -25,8 +25,8 @@ const Footer: React.FC<Promps> = ({pageName, developer, email}) => {
                         <span className='text-2xl font-semibold text-green-700 text-center'>{`${developer}`}</span>
                     </div>
 
-                    <div className="grid grid-cols-2">
-                        <div>
+                    <div className="grid grid-cols-1">
+                        {/* <div>
                             <h2 className="mb-4 text-sm font-semibold text-green-600 uppercase">Marco legal</h2>
 
                             <ul className="text-white font-medium">
@@ -38,7 +38,7 @@ const Footer: React.FC<Promps> = ({pageName, developer, email}) => {
                                     <a href="/politica-privacidad" className="hover:underline">Política de privacidad</a>
                                 </li>
                             </ul>
-                        </div>
+                        </div> */}
 
                         <div>
                             <h2 className="mb-4 text-sm font-semibold text-green-600 uppercase">Contacto</h2>
