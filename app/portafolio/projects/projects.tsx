@@ -31,9 +31,6 @@ const Projects: React.FC<Promps> = ({projectsInfo}) => {
                                 <p className="text-xl text-black font-bold mb-2">
                                     { project.name }
                                 </p>
-                                <p className="text-base text-black font-normal text-justify">
-                                    { project.description }.
-                                </p>
                             </div>
                             
                             <div className="flex flex-wrap justify-center mt-4">

@@ -14,6 +14,7 @@ export default function Luciana() {
         'Bootstrap',
         'CSS',
         'Git',
+        'GitHub',
         'HTML',
         'Laravel',
         'MySQL',

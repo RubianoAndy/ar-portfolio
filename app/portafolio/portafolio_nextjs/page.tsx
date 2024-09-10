@@ -10,9 +10,12 @@ export default function PortafolioNextJs() {
     const imagesQuantity = Array.from({ length:9 });
 
     const technologies = [
+        'ExpressJS',
         'Git',
+        'GitHub',
         'HTML',
         'NextJS',
+        'NodeJS',
         'Tailwind CSS',
         'TypeScript',
     ];
