@@ -25,7 +25,7 @@ export default function Portfolio() {
             path: 'luciana',
         },
         {
-            picture: '/assets/webpage/projects/Portafolio NextJS/1.png',
+            picture: '/assets/webpage/projects/PortafolioNextJS/1.png',
             name: 'Portafolio Next.JS',
             /* description: `Portafolio para desarrollador web que muestra una colección de programas y aplicaciones creadas utilizando 
                     una variedad de frameworks y lenguajes de programación, reflejando la capacidad de adaptación a diferentes requisitos 

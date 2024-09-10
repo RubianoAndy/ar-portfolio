@@ -5,7 +5,7 @@ import Image from "next/image";
 import Technologies from "@/app/global/components/technologies/technologies";
 
 export default function PortafolioNextJs() {
-    const path: string = '/assets/webpage/projects/Portafolio NextJS/';
+    const path: string = '/assets/webpage/projects/PortafolioNextJS/';
 
     const imagesQuantity = Array.from({ length:9 });
 
